@@ -1,0 +1,4 @@
+changes to deleteMe.txt & renameMe.txt only affected the myFirstBranch since a commit of the changes was made there.
+trying to checkout from myFirstBranch to master before stashing the cached/untracked stashed.txt would not have been possible. 
+	$git add .  -> stage it. then:
+	$git stash
